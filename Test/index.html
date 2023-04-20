@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Responsive Design Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head> 
+  <body>
+    <header>
+      <nav class="navbar container">
+        <div class="logo__container">
+          <img src="./images/logo.svg" />
+        </div>
+        <div class="navbar-item__container" id="navLinks">
+          
+          <div class="close_icon">
+            <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#" class="btn" id="btn">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="close_icon">
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </div>
+      
+    </header>
+    <div class="home">
+      <div class="flex-box">
+       <h1>Resources</h1>
+       <h3>Press</h3>
+      </div>
+    <div class="services">
+      <div class="card">
+        <h2>Press Assets</h2>
+        <p>
+          direct one's mind towards someone or something; use one's mind
+          
+        </p>
+        <a href="#" class="btn1">Download</a>
+      </div>
+
+      <div class="card">
+        <h2>Company Profile</h2>
+        <p>
+          to work out the structure or form of (something), as by making a
+           
+        </p>
+        <a href="#" class="btn1">Download</a>
+      </div>
+
+      <div class="card">
+        <h2>Resources Name</h2>
+        <p>
+          a non-profit organization and eponymous website led by Hadi and Ali
+          
+        </p>
+        <a href="#" class="btn1">Download</a>
+      </div>
+    </div>
+    <div class="Legal">
+      <div class="flex-box">
+       <h3>Legal</h3>
+      </div>
+      <div class="services">
+      <div class="card">
+        <h2>AML Policy</h2>
+        <p>
+          direct one's mind towards someone or something; use one's mind
+          
+        </p>
+        <a href="#" class="btn1">Download</a>
+      </div>
+
+      <div class="card">
+        <h2>Privacy Policy</h2>
+        <p>
+          to work out the structure or form of (something), as by making a
+         
+        </p>
+        <a href="#" class="btn1">Download</a>
+      </div>
+
+      <div class="card">
+        <h2>Investors Document</h2>
+        <p>
+          a non-profit organization and eponymous website led by Hadi and Ali
+         
+        </p>
+        <a href="#" class="btn1">Download</a>
+      </div>
+    </div>
+    <div class="Brand">
+      <div class="flex-box">
+       <h3>Our Brands</h3>
+      </div>
+      <div class="services">
+      <div class="card">
+        <h2>PasSPay</h2>
+        <p>
+          direct one's mind towards someone or something; use one's mind
+          
+        </p>
+        <a href="#" class="btn1">View</a>
+      </div>
+
+      <div class="card">
+        <h2>iSend</h2>
+        <p>
+          to work out the structure or form of (something), as by making a
+         
+        </p>
+        <a href="#" class="btn1">View</a>
+      </div>
+
+      <div class="card">
+        <h2>iPay</h2>
+        <p>
+          a non-profit organization and eponymous website led by Hadi and Ali
+         
+        </p>
+        <a href="#" class="btn1">View</a>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <div class="footer-box">
+         <div class="footer-item">
+          <div class="logo__container">
+          <img src="./images/logo.svg" />
+        </div>
+        <h4>Contact Us</h4>
+        <p>Uttardhoka Gairidhara,</p>
+        <p>Kathmandu Nepal</p>
+      
+      </div>
+
+      <div class="footer-item">
+        <h4>Products</h4>
+        <p> iSend</p>
+        <p>iPay</p>
+        <p>PasSPay</p>
+      
+      </div>
+      <div class="footer-item">
+        <h4>Links</h4>
+        <p> Compliance</p>
+        <p>Privacy Policy</p>
+        <p>Cookie Policy</p>
+        <p>Terms & Conditions</p>
+        <p>Scam Alert</p>
+      </div>
+
+      <div class="footer-item">
+        <h4>Connect</h4>
+        <div class="social-icon">
+         <i class="fa-brands fa-linkedin"></i>
+         <i class="fa-solid fa-envelope"></i>
+        </div>
+      </div>
+      </div>
+      <div class="last">
+        <p>Copyright © iSend Global. All rights reserved.</p>
+
+      </div>
+    </footer>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        console.log('hhgfhgf')
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-400px";
+      }
+
+ </script>
+  </body>
+</html>
